@@ -118,7 +118,7 @@ jQuery(function ($) {
 			this.todos = this.getActiveTodos();
 			this.render();
 		},
-		// accepts an element from inside the `.item` div and
+		// accepts an element from inside the `.view` div and
 		// returns the corresponding index in the `todos` array
 		getIndexFromEl: function (el) {
 			var id = $(el).closest('li').data('id');
